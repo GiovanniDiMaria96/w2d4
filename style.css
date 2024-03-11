@@ -1,0 +1,160 @@
+body {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding:5%;
+}
+
+p {
+    color: #858585;
+}
+
+#supercontainer0 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#supercontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 5%;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin-right: 30px;
+
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+#headercontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 30px;
+    margin-top: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    border-color: grey;
+    border-radius: 20px;
+    background-color: white;
+    height: 35px;
+}
+
+#nav2 {
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+
+.article {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    cursor: pointer;
+}
+
+
+.toparticle {
+    display: flex;
+    align: column;
+}
+
+#lowarticle {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#aside {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid grey;
+
+}
+
+#social {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#logotwitter {
+    height: 50%;
+}
+
+#asidespace {
+    padding-left: 5%;
+}
+
+#recommended {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.greybutton{
+    background-color: #edebeb;
+    border-color: transparent;
+    border-radius: 20px;
+    width: max-content;
+}
+
+#marginauto{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+i {
+    padding-top: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*div, section, nav{
+    border: 1px solid black;
+}
